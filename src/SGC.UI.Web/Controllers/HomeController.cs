@@ -4,12 +4,15 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SGC.ApplicationCore.Entity;
+using SGC.Infrastructure.Data;
 using SGC.UI.Web.Models;
 
 namespace SGC.UI.Web.Controllers
 {
     public class HomeController : Controller
     {
+        
         public IActionResult Index()
         {
             return View();
